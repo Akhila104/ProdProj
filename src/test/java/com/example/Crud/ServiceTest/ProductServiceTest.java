@@ -28,7 +28,7 @@ public class ProductServiceTest {
     }
 
     @Test
-    void testFindAllEmployees() {
+    void testFindAllProducts() {
         List<Product> list = new ArrayList<Product>();
         Product prod1 = new Product(1, "samsung", 2, 20000);
         Product prod2 = new Product(2, "apple", 1, 50000);
@@ -47,7 +47,7 @@ public class ProductServiceTest {
     }
 
     @Test
-    void testCreateOrSaveEmployee() {
+    void testCreateOrSaveProduct() {
         Product product = new Product();
 
         productService.save(product);
