@@ -48,7 +48,7 @@ public class ProductServiceTest {
 
     @Test
     void testCreateOrSaveProduct() {
-        Product product = new Product();
+        Product product = new Product(3,"app",1,3000);
 
         productService.save(product);
 
