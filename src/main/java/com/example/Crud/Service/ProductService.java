@@ -25,8 +25,8 @@ public class ProductService {
     public void deleteById(Integer id) {
         Optional<Product> product = repository.findById(id);
     }
-        public String  deleteAll() {
+        public void deleteAll() {
         repository.deleteAll();
-            return "deleted"
+            
     }
 }
